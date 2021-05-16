@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SampleDto.proto" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.Tools" Version="2.37.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Proto.Persistence" Version="0.17.0" />
+    <PackageReference Include="Proto.Persistence.Sqlite" Version="0.17.0" />
+    <PackageReference Include="SeungYongShim.Proto.DependencyInjection" Version="0.17.0.102" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Protobuf Include="SampleDto.proto" GrpcServices="None" />
+  </ItemGroup>
+
+
+</Project>

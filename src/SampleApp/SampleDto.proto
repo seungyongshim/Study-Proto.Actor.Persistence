@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SampleDto {
+  int32 number = 2;
+}
