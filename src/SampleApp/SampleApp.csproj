@@ -18,7 +18,7 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
     <PackageReference Include="Proto.Persistence" Version="0.17.0" />
     <PackageReference Include="Proto.Persistence.Sqlite" Version="0.17.0" />
-    <PackageReference Include="SeungYongShim.Proto.DependencyInjection" Version="0.17.0.102" />
+    <PackageReference Include="SeungYongShim.Proto.DependencyInjection" Version="0.17.0.160" />
   </ItemGroup>
 
 
